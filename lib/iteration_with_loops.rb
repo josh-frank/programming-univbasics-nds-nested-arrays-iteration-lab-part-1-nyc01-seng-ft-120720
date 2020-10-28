@@ -5,7 +5,7 @@ def find_even_values(src)
   for row in src do
     for column in src[ row ]
       value = src[ row ][ column ]
-      puts value if value.even?
+      p value if value.even?
     end
   end
 end
