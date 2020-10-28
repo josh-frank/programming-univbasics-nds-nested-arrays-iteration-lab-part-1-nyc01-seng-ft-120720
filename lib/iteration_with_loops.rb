@@ -4,7 +4,7 @@ def find_even_values(src)
   # Output all even values in each nested array
   for row in src do
     for column in src[ row ]
-      puts src[ row ][ column ] if src[ row ][ column ] / 2 == 0
+      puts src[ row ][ column ] if src[ row ][ column ].even?
     end
   end
 end
